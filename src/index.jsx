@@ -149,8 +149,6 @@ const Shiitake = (props) => {
       <span style={{ ...wrapperStyles, maxHeight }}>
         <span className="shiitake-children" style={childrenStyles}>{children}{overflow}</span>
 
-        <span ref={spreaderEl} style={spreaderStyles} aria-hidden="true">{allChildren}</span>
-
         <span style={sizerWrapperStyles} aria-hidden="true">
           <span ref={sizerEl} style={block}>{vertSpacers}</span>
           <span className="shiitake-test-children" ref={testChildrenEl} style={block}>{testChildren}{overflow}</span>
